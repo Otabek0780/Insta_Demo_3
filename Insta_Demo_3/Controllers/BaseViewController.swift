@@ -19,11 +19,12 @@ class BaseViewController: UIViewController {
     
     // MARK: - Methods
     
-    func appDelegate() -> AppDelegate {
+    func appDelegate() -> AppDelegate{
         return ((UIApplication.shared.delegate as? AppDelegate)!)
     }
-    func sceneDelegate() -> SceneDelegate {
-        return ((UIApplication.shared.delegate as? SceneDelegate)!)
+    func sceneDelegate() -> SceneDelegate{
+        
+        return (UIApplication.shared.connectedScenes.first!.delegate as? SceneDelegate)!
     }
     
 
