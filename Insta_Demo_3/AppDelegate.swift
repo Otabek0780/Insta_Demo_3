@@ -20,11 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func initNavSetUp() {
-        UINavigationBar.appearance().barTintColor = .darkGray
-        UINavigationBar.appearance().tintColor = .white
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        UINavigationBar.appearance().barTintColor = .white
+        UINavigationBar.appearance().tintColor = .black
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
         
-        UINavigationBar.appearance().shadowImage = UIImage()
+        //UINavigationBar.appearance().shadowImage = UIImage()
         
         UINavigationBar.appearance().isTranslucent = false
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)

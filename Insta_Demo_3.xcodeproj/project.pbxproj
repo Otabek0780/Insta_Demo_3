@@ -19,6 +19,9 @@
 		5FF67AD025C6C050007AD719 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67ACE25C6C050007AD719 /* SignUpViewController.swift */; };
 		5FF67AD125C6C050007AD719 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF67ACF25C6C050007AD719 /* SignUpViewController.xib */; };
 		5FF67AD425C6CD89007AD719 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67AD325C6CD89007AD719 /* BaseViewController.swift */; };
+		5FF67ADF25C6F52A007AD719 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67ADE25C6F52A007AD719 /* Post.swift */; };
+		5FF67AE425C6F875007AD719 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67AE225C6F875007AD719 /* PostTableViewCell.swift */; };
+		5FF67AE525C6F875007AD719 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF67AE325C6F875007AD719 /* PostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		5FF67ACE25C6C050007AD719 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5FF67ACF25C6C050007AD719 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		5FF67AD325C6CD89007AD719 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5FF67ADE25C6F52A007AD719 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5FF67AE225C6F875007AD719 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		5FF67AE325C6F875007AD719 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,8 @@
 		5FF67AA925C6BEA7007AD719 /* Insta_Demo_3 */ = {
 			isa = PBXGroup;
 			children = (
+				5FF67AE125C6F834007AD719 /* Cell */,
+				5FF67AD725C6F382007AD719 /* Model */,
 				5FF67AC025C6BF0C007AD719 /* Controllers */,
 				5FF67AC125C6BF18007AD719 /* Apputils */,
 				5FF67AAA25C6BEA7007AD719 /* AppDelegate.swift */,
@@ -99,6 +107,23 @@
 				5FF67AB025C6BEA7007AD719 /* Main.storyboard */,
 			);
 			path = Apputils;
+			sourceTree = "<group>";
+		};
+		5FF67AD725C6F382007AD719 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FF67ADE25C6F52A007AD719 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FF67AE125C6F834007AD719 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5FF67AE225C6F875007AD719 /* PostTableViewCell.swift */,
+				5FF67AE325C6F875007AD719 /* PostTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +187,7 @@
 				5FF67AB725C6BEA8007AD719 /* LaunchScreen.storyboard in Resources */,
 				5FF67AB425C6BEA8007AD719 /* Assets.xcassets in Resources */,
 				5FF67AB225C6BEA7007AD719 /* Main.storyboard in Resources */,
+				5FF67AE525C6F875007AD719 /* PostTableViewCell.xib in Resources */,
 				5FF67AD125C6C050007AD719 /* SignUpViewController.xib in Resources */,
 				5FF67AC625C6BF44007AD719 /* HomeViewController.xib in Resources */,
 			);
@@ -177,8 +203,10 @@
 				5FF67ACA25C6C038007AD719 /* SignInViewController.swift in Sources */,
 				5FF67AAB25C6BEA7007AD719 /* AppDelegate.swift in Sources */,
 				5FF67AAD25C6BEA7007AD719 /* SceneDelegate.swift in Sources */,
+				5FF67AE425C6F875007AD719 /* PostTableViewCell.swift in Sources */,
 				5FF67AC525C6BF44007AD719 /* HomeViewController.swift in Sources */,
 				5FF67AD025C6C050007AD719 /* SignUpViewController.swift in Sources */,
+				5FF67ADF25C6F52A007AD719 /* Post.swift in Sources */,
 				5FF67AD425C6CD89007AD719 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
